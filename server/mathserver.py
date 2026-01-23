@@ -11,7 +11,7 @@ def add(a:int,b:int) -> int:
     return a+b 
 
 @mcp.tool()
-def multply(a:int,b:int) -> int:
+def multiply(a:int,b:int) -> int:
     """summary
     multiply two numbers
     
@@ -22,3 +22,7 @@ def multply(a:int,b:int) -> int:
 
 if __name__=="__main__":
     mcp.run(transport="stdio")
+    # commnd for push file ti github
+    # git add .
+    # git commit -m "mathserver"
+    
